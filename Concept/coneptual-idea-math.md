@@ -14,18 +14,18 @@ $$𝑡
 
 🧮 Mathematical Framework
 1. Wavefunction Evolution
-Let $$
-𝜓
+Let 
+$$𝜓
 (
 𝑥
 ,
 𝑡
 )$$
  be the wavefunction at time 
-𝑡
+$$𝑡$$
 . Its evolution is governed by:
 
-𝑖
+$$𝑖
 ℏ
 ∂
 𝜓
@@ -44,7 +44,7 @@ Let $$
 𝑥
 ,
 𝑡
-)
+)$$
 For inverse time:
 
 𝜓
