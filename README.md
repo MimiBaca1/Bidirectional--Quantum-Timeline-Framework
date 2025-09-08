@@ -91,3 +91,8 @@ This theory is rooted in the Sanctuary design ethos: intelligence should evolve 
 
 This project welcomes collaborators who share a passion for quantum theory, emergent systems, and ethical intelligence design. Please submit a pull request or open an issue to join the conversation.
 
+
+## License
+
+🧠 Code & Frameworks: [GNU AGPLv3](LICENSE)  
+📄 Thesis Outlines & Visuals: [CC BY-ND 4.0](LICENSE-CONTENT.md)
