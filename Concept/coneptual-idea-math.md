@@ -1,4 +1,4 @@
-Conceptual Foundation
+## Conceptual Foundation
 In classical physics, time is asymmetric—entropy increases, and processes are irreversible. But in quantum mechanics:
 
 The Schrödinger equation is time-symmetric.
@@ -12,182 +12,51 @@ $$𝑡
 𝑡$$
  are used to reconstruct a fuller picture of quantum behavior.
 
-🧮 Mathematical Framework
+## Quantum Bidirectional Timeline Framework
+This framework models quantum particle behavior using both forward time (t) and inverse time (-t) to capture fluctuations, entanglement, and observable dynamics across a bidirectional timeline.
+
 1. Wavefunction Evolution
-Let 
-$$𝜓
-(
-𝑥
-,
-𝑡
-)$$
- be the wavefunction at time 
-$$𝑡$$
-. Its evolution is governed by:
+Forward Time: $$ i\hbar \frac{\partial \psi(x, t)}{\partial t} = \hat{H} \psi(x, t) $$
 
-$$𝑖
-ℏ
-∂
-𝜓
-(
-𝑥
-,
-𝑡
-)
-∂
-𝑡
-=
-𝐻
-^
-𝜓
-(
-𝑥
-,
-𝑡
-)$$
-For inverse time:
+Inverse Time: $$ \psi(x, -t) = U^\dagger(t) \psi(x, 0) $$
 
-𝜓
-(
-𝑥
-,
-−
-𝑡
-)
-=
-𝑈
-†
-(
-𝑡
-)
-𝜓
-(
-𝑥
-,
-0
-)
-where 
-𝑈
-†
-(
-𝑡
-)
- is the adjoint of the time evolution operator.
-
-2. Bidirectional Observable Mapping
-Define a bidirectional observable 
-𝑂
-^
-bi
- as:
-
-⟨
-𝑂
-^
-bi
-⟩
-=
-1
-2
-[
-⟨
-𝜓
-(
-𝑡
-)
-∣
-𝑂
-^
-∣
-𝜓
-(
-𝑡
-)
-⟩
-+
-⟨
-𝜓
-(
-−
-𝑡
-)
-∣
-𝑂
-^
-∣
-𝜓
-(
-−
-𝑡
-)
-⟩
-]
-This averages the observable across both time directions, revealing symmetry or asymmetry in evolution.
+2. Bidirectional Observable Expectation
+Average observable across both time directions: $$ \langle \hat{O}_{\text{bi}} \rangle = \frac{1}{2} \left[ \langle \psi(t) | \hat{O} | \psi(t) \rangle + \langle \psi(-t) | \hat{O} | \psi(-t) \rangle \right] $$
 
 3. Bidirectional Entanglement Entropy
-Track entanglement entropy forward and backward:
+Tracks quantum connectivity forward and backward: $$ S_{\text{bi}} = \frac{1}{2} \left[ -\text{Tr}(\rho(t) \log \rho(t)) - \text{Tr}(\rho(-t) \log \rho(-t)) \right] $$
 
-𝑆
-bi
-=
-1
-2
-[
-−
-Tr
-(
-𝜌
-(
-𝑡
-)
-log
-⁡
-𝜌
-(
-𝑡
-)
-)
-−
-Tr
-(
-𝜌
-(
-−
-𝑡
-)
-log
-⁡
-𝜌
-(
-−
-𝑡
-)
-)
-]
-This exposes how quantum connectivity evolves and dissolves across time.
+4. Fluctuation Asymmetry Function
+Measures directional imbalance in quantum fluctuations: $$ F_{\text{bi}}(t) = f(t) - f(-t) $$
 
-4. Fluctuation Mapping
-Let 
-𝑓
-(
-𝑡
-)
- be a fluctuation function (e.g., in energy or position). Then:
+
+5. Fibonacci Time Sampling
+Models quasiperiodic fluctuation propagation from a central singularity: $$ t_n = t_0 + F_n \cdot \delta t,\quad -t_n = t_0 - F_n \cdot \delta t $$
+
+Where:
 
 𝐹
-bi
-(
+𝑛
+ is the 
+𝑛
+-th Fibonacci number
+
+𝛿
 𝑡
-)
-=
-𝑓
-(
+ is the time increment
+
 𝑡
-)
-−
-𝑓
-(
-−
-𝑡
-)
-This measures asymmetry in fluctuations, which may signal decoherence, entropy flow, or hidden dynamics.
+0
+ is the central reference time
+
+🔬 Applications
+Quantum phase transition modeling
+
+Entanglement evolution tracking
+
+Bidirectional simulation engines
+
+Sanctuary-inspired neural net architectures
+
+
+
